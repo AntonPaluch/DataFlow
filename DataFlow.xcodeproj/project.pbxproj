@@ -11,6 +11,10 @@
 		7EAF9C602616292C006A9234 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAF9C5F2616292C006A9234 /* ContentView.swift */; };
 		7EAF9C622616292D006A9234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EAF9C612616292D006A9234 /* Assets.xcassets */; };
 		7EAF9C652616292D006A9234 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EAF9C642616292D006A9234 /* Preview Assets.xcassets */; };
+		7EAF9C6E261642D2006A9234 /* TimerCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAF9C6D261642D2006A9234 /* TimerCounter.swift */; };
+		7EF3D787261787B200672F61 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF3D786261787B200672F61 /* RegisterView.swift */; };
+		7EF3D78A2617889E00672F61 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF3D7892617889E00672F61 /* UserManager.swift */; };
+		7EF3D78D26178B4900672F61 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF3D78C26178B4900672F61 /* StarterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		7EAF9C612616292D006A9234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EAF9C642616292D006A9234 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7EAF9C662616292D006A9234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EAF9C6D261642D2006A9234 /* TimerCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCounter.swift; sourceTree = "<group>"; };
+		7EF3D786261787B200672F61 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		7EF3D7892617889E00672F61 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		7EF3D78C26178B4900672F61 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				7EAF9C5D2616292C006A9234 /* DataFlowApp.swift */,
+				7EF3D78C26178B4900672F61 /* StarterView.swift */,
 				7EAF9C5F2616292C006A9234 /* ContentView.swift */,
+				7EF3D786261787B200672F61 /* RegisterView.swift */,
+				7EF3D7892617889E00672F61 /* UserManager.swift */,
+				7EAF9C6D261642D2006A9234 /* TimerCounter.swift */,
 				7EAF9C612616292D006A9234 /* Assets.xcassets */,
 				7EAF9C662616292D006A9234 /* Info.plist */,
 				7EAF9C632616292D006A9234 /* Preview Content */,
@@ -139,6 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EAF9C602616292C006A9234 /* ContentView.swift in Sources */,
+				7EF3D787261787B200672F61 /* RegisterView.swift in Sources */,
+				7EF3D78D26178B4900672F61 /* StarterView.swift in Sources */,
+				7EAF9C6E261642D2006A9234 /* TimerCounter.swift in Sources */,
+				7EF3D78A2617889E00672F61 /* UserManager.swift in Sources */,
 				7EAF9C5E2616292C006A9234 /* DataFlowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
